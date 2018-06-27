@@ -113,6 +113,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &112164923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 112164924}
+  m_Layer: 0
+  m_Name: Aircraft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &112164924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112164923}
+  m_LocalRotation: {x: -0.17197521, y: 0.88366693, z: -0.06259361, w: 0.43085888}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 574665532}
+  - {fileID: 1720212133}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -2.153, y: 128.41301, z: -20.985}
 --- !u!1001 &308094384
 Prefab:
   m_ObjectHideFlags: 0
@@ -155,6 +185,53 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b662b36b923f247b69cc7219769f46, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1001 &574665531
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 112164924}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+  m_IsPrefabAsset: 0
+--- !u!4 &574665532 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 4fea6053a1424d44daf193f09be2d491,
+    type: 3}
+  m_PrefabInternal: {fileID: 574665531}
 --- !u!1 &715863268
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +394,53 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1720212132
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 112164924}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 63742edd796d522458d772b44affdf9b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63742edd796d522458d772b44affdf9b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63742edd796d522458d772b44affdf9b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63742edd796d522458d772b44affdf9b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63742edd796d522458d772b44affdf9b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63742edd796d522458d772b44affdf9b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63742edd796d522458d772b44affdf9b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63742edd796d522458d772b44affdf9b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63742edd796d522458d772b44affdf9b, type: 3}
+  m_IsPrefabAsset: 0
+--- !u!4 &1720212133 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63742edd796d522458d772b44affdf9b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1720212132}
 --- !u!1 &1874020169
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,7 +466,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.95686275, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -540,21 +664,11 @@ Prefab:
     - target: {fileID: 114367097873073092, guid: 96956723f3c1fea4c93f4cda01df1870,
         type: 2}
       propertyPath: m_Text
-      value: "Duis vitae porttitor eros. Vivamus maximus sit amet neque sit amet ultricies.
-        Sed viverra, erat sed malesuada lacinia, tellus nulla iaculis purus, eu dignissim
-        neque orci in enim. Fusce nibh eros, tempus sit amet justo in, cursus vehicula
-        magna. Vivamus non lobortis ligula. Nam ligula nunc, hendrerit vel rutrum
-        vel, bibendum ac ipsum. Donec eget finibus erat. Nullam nulla nulla, congue
-        a pharetra a, tempus vitae nunc. Nunc sed eros sit amet leo suscipit sagittis.
-        Cras ut velit quis libero ultricies sodales eget pellentesque orci. Pellentesque
-        pellentesque vehicula feugiat. Donec vel efficitur mi.\r\n\r\nVivamus felis
-        nibh, bibendum eu tempor eget, faucibus id odio. Ut nunc orci, sagittis in
-        justo non, tristique condimentum ipsum. Nunc consectetur dictum augue nec
-        euismod. Suspendisse et mauris felis. Integer pellentesque risus vel dolor
-        euismod semper. Sed tempor, mauris eu scelerisque ultricies, ex odio tempor
-        leo, id semper quam dui quis ligula. Fusce massa massa, ornare sed euismod
-        porttitor, aliquam non odio. Ut neque metus, imperdiet eget nulla ut, viverra
-        feugiat lorem."
+      value: "spie\xADlen <b>[\u02C8\u0283pi\u02D0l\u0259n]</b>; schwaches Verb; spielen
+        gehen; Schach spielen; die Kinder spielen Fangen; sich mit etwas spielen;
+        die Muskeln spielen lassen oder spielenlassen;\nsich zum Vergn\xFCgen, Zeitvertreib
+        und allein aus Freude an der Sache selbst auf irgendeine Weise bet\xE4tigen,
+        mit etwas besch\xE4ftigen; "
       objectReference: {fileID: 0}
     - target: {fileID: 114367097873073092, guid: 96956723f3c1fea4c93f4cda01df1870,
         type: 2}

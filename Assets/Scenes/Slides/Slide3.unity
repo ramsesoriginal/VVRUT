@@ -213,7 +213,7 @@ Prefab:
     - target: {fileID: 114913583083295692, guid: fdfc3a9675d8cda40b430c3d978f936f,
         type: 2}
       propertyPath: m_Text
-      value: Moderner Unterricht
+      value: '[Video]Spiele'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfc3a9675d8cda40b430c3d978f936f, type: 2}
@@ -264,6 +264,76 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b662b36b923f247b69cc7219769f46, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &575538655
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.10692061
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5686696
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.07486662
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8121441
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -70.630005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_Name
+      value: SkyCar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -5.0790005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 14.133
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
   m_IsPrefabAsset: 0
 --- !u!1 &715863268
 GameObject:
@@ -438,7 +508,7 @@ GameObject:
   - component: {fileID: 1874020171}
   - component: {fileID: 1874020170}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -452,10 +522,10 @@ Light:
   m_GameObject: {fileID: 1874020169}
   m_Enabled: 1
   serializedVersion: 8
-  m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Type: 2
+  m_Color: {r: 1, g: 0.95686275, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 10
+  m_Range: 50
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -488,7 +558,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1874020169}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -550,6 +620,72 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71421e04524dff640823c73cedbd6cae, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1986865660
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.10692061
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5686696
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.07486662
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8121441
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 70.630005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -5.0790005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -14.133
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
   m_IsPrefabAsset: 0
 --- !u!1001 &1994828689
 Prefab:
@@ -651,18 +787,14 @@ Prefab:
     - target: {fileID: 114367097873073092, guid: 96956723f3c1fea4c93f4cda01df1870,
         type: 2}
       propertyPath: m_Text
-      value: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris libero
-        dolor, tempor et porta eu, molestie id urna. Ut sed augue vitae dui cursus
-        iaculis sit amet vitae velit. Nulla ut consequat risus. Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit. Sed tempus, lorem nec pulvinar aliquet,
-        justo lacus convallis leo, nec interdum eros leo vitae tellus. Cras at lacinia
-        lorem. Donec pulvinar molestie interdum. Donec id feugiat ex. Nullam tempor
-        augue in quam iaculis, ac convallis tellus pharetra. In sagittis varius sapien
-        eget consequat. Nunc vitae varius nunc. Phasellus imperdiet euismod dui posuere
-        fringilla.\r\n\r\nQuisque vulputate mi ullamcorper risus tincidunt, ut sollicitudin
-        risus scelerisque. Duis pretium vulputate sollicitudin. Fusce sit amet ipsum
-        eu nisi congue sagittis. Donec nunc velit, rutrum non pharetra in, fringilla
-        ut nisl. Vestibulum mattis nunc sit amet leo ultrices, a porta elit tincidunt."
+      value: "Vi\xADdeo\xADspiel <b>[\u02C8vi\u02D0deo\u0283pi\u02D0l]</b>, das; Substantiv,
+        Neutrum; elektronisches Spiel, das \xFCber einen Monitor l\xE4uft und in das
+        der Spieler \xFCber eine Tastatur, einen Joystick oder mithilfe einer Maus
+        eingreift.\n\nSpiel <b>[\u0283pi\u02D0l]</b>, das; Substantiv, Neutrum; T\xE4tigkeit,
+        die ohne bewussten Zweck zum Vergn\xFCgen, zur Entspannung, aus Freude an
+        ihr selbst und an ihrem Resultat ausge\xFCbt wird; T\xE4tigkeit, die nach
+        festgelegten Regeln durchgef\xFChrt wird; nach bestimmten Regeln erfolgender
+        sportlicher Wettkampf, bei dem zwei Parteien um den Sieg k\xE4mpfen"
       objectReference: {fileID: 0}
     - target: {fileID: 114367097873073092, guid: 96956723f3c1fea4c93f4cda01df1870,
         type: 2}
