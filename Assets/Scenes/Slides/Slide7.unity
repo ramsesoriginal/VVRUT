@@ -152,6 +152,31 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 20714774304787498, guid: e2b662b36b923f247b69cc7219769f46,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0.19607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 20714774304787498, guid: e2b662b36b923f247b69cc7219769f46,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.19607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 20714774304787498, guid: e2b662b36b923f247b69cc7219769f46,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.19607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 20714774304787498, guid: e2b662b36b923f247b69cc7219769f46,
+        type: 2}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20714774304787498, guid: e2b662b36b923f247b69cc7219769f46,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b662b36b923f247b69cc7219769f46, type: 2}
   m_IsPrefabAsset: 0
@@ -540,7 +565,7 @@ Prefab:
     - target: {fileID: 114367097873073092, guid: 96956723f3c1fea4c93f4cda01df1870,
         type: 2}
       propertyPath: m_Text
-      value: 7
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96956723f3c1fea4c93f4cda01df1870, type: 2}
@@ -640,6 +665,10 @@ Prefab:
     - target: {fileID: 224621047662944136, guid: 5cc39b5904da99d45925efc955bbbe76,
         type: 2}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465036255194470, guid: 5cc39b5904da99d45925efc955bbbe76, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
