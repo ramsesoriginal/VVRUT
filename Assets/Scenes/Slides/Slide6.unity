@@ -390,7 +390,7 @@ MonoBehaviour:
   - {fileID: 1895124127}
   offObjects:
   - {fileID: 2085204878}
-  minTime: 0.001
+  minTime: 0.005
   maxTime: 0.2
   nextFlickerTime: 0
 --- !u!4 &954190458
