@@ -114,7 +114,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1946781419508520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4769725695563684}
@@ -144,7 +144,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1182336474988514}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4769725695563684}
@@ -156,13 +156,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1959149956265480}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4769725695563684}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!20 &20381649220148830
 Camera:
   m_ObjectHideFlags: 1
@@ -279,7 +279,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPositionTarget: {fileID: 114768330923151662}
-  speed: 0.05
+  targetPosCache: {x: 0, y: 0, z: 0}
+  ownPosCache: {x: 0, y: 0, z: 0}
+  oldForward: {x: 0, y: 0, z: 0}
+  targetForward: {x: 0, y: 0, z: 0}
+  speed: 0.01
+  progress: 0
 --- !u!114 &114532915634261848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -333,3 +338,4 @@ MonoBehaviour:
   targetPosCache: {x: 0, y: 0, z: 0}
   ownPosCache: {x: 0, y: 0, z: 0}
   speed: 0.05
+  progress: 0

@@ -13,12 +13,13 @@ namespace Game3D.Camera
         public Vector3 ownPosCache;
 
         public float speed;
-        private float progress;
+        public float progress;
 
         // Use this for initialization
         void Start()
         {
-
+            targetPosCache = transform.position;
+            ownPosCache = transform.position; ;
         }
 
         // Update is called once per frame
@@ -35,7 +36,7 @@ namespace Game3D.Camera
 
             transform.position = Vector3.Lerp(ownPosCache, newPos, progress);
 
-            if (progress > 1)
+            if (progress <= 1)
             {
                 progress += speed;
             }
