@@ -8,6 +8,10 @@ namespace Game3D.Camera
     public class MoveTarget : MonoBehaviour
     {
 
+        public Transform followThis;
+
+        public Vector3 offset;
+
         // Use this for initialization
         void Start()
         {
@@ -17,7 +21,7 @@ namespace Game3D.Camera
         // Update is called once per frame
         void Update()
         {
-
+            transform.position = followThis.position + offset;
         }
     }
 }
