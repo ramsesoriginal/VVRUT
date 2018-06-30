@@ -29,7 +29,7 @@ namespace Game3D.Camera
 
             if (targetPosCache != newPos)
             {
-                progress = 0;
+                progress = speed;
                 targetPosCache = newPos;
                 ownPosCache = transform.position;
             }

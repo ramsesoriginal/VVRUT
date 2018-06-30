@@ -21,7 +21,7 @@ namespace Game3D.Camera
         // Update is called once per frame
         void Update()
         {
-            transform.position = followThis.position + offset;
+            transform.position = followThis.position + followThis.rotation * offset;
         }
     }
 }
